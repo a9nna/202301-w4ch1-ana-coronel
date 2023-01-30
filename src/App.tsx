@@ -1,3 +1,4 @@
+import { Button } from "./components/Button/Button";
 import { Info } from "./components/Info/Info";
 
 const App = (): JSX.Element => {
@@ -8,6 +9,7 @@ const App = (): JSX.Element => {
       </header>
       <section className="controls">
         <Info />
+        <Button />
       </section>
     </div>
   );
